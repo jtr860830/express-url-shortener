@@ -1,0 +1,17 @@
+meta {
+  name: create url
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/urls/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "origin": "https://github.com/jtr860830"
+  }
+}
